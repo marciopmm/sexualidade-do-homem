@@ -1,0 +1,25 @@
+div#introQuestion {
+    background-color: black;
+
+    h1 {
+        margin: 30px auto 20px;
+        color: #ddd;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    p {
+        padding: 0 20%;
+        font-size: 1.4em;
+        color: #aaa;
+        text-align: center;
+    }
+
+    p.emphasis {
+        padding: 0 20%;
+        font-size: 1.4em;
+        color: #d6b6ff;
+        text-align: center;
+    }
+}

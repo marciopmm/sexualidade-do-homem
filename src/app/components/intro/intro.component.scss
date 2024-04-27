@@ -1,0 +1,93 @@
+div#intro {
+
+    img {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 1040px) {
+        div#left {
+            background-color: rgba(200, 200, 200, .5);
+            max-width: 40%;
+            position: absolute;
+            top: 20%;
+
+            h1 {
+                color: #222;
+                text-align: right;
+                font-size: 1.6em;
+            }
+        }
+
+        div#rightBottom {
+            background-color: rgba(50, 50, 50, .5);
+            max-width: 30%;
+            position: absolute;
+            bottom: 35%;
+            right: 0;
+
+            h1 {
+                color: #ddd;
+                text-align: left;
+                font-size: 1.6em;
+            }
+        }
+    }
+
+    @media screen and (min-width: 740px) and (max-width: 1039px) {
+        div#left {
+            background-color: rgba(200, 200, 200, .5);
+            max-width: 40%;
+            position: absolute;
+            top: 15%;
+
+            h1 {
+                color: #222;
+                text-align: right;
+                font-size: 1.4em;
+            }
+        }
+
+        div#rightBottom {
+            background-color: rgba(50, 50, 50, .5);
+            max-width: 40%;
+            position: absolute;
+            bottom: 49%;
+            right: 0;
+
+            h1 {
+                color: #ddd;
+                text-align: left;
+                font-size: 1.4em;
+            }
+        }
+    }
+
+    @media screen and (max-width: 739px) {
+        div#left {
+            background-color: rgba(200, 200, 200, .5);
+            max-width: 40%;
+            position: absolute;
+            top: 15%;
+
+            h1 {
+                color: #222;
+                text-align: right;
+                font-size: 1.1em;
+            }
+        }
+
+        div#rightBottom {
+            background-color: rgba(50, 50, 50, .5);
+            max-width: 40%;
+            position: absolute;
+            bottom: 63%;
+            right: 0;
+
+            h1 {
+                color: #ddd;
+                text-align: left;
+                font-size: 1.1em;
+            }
+        }
+    }
+}
