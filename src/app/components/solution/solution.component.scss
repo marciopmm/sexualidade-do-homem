@@ -1,0 +1,70 @@
+div#introSolution {
+    background-image: url('/assets/img/back03.jpg');
+
+    div.header {
+        background-color: #888;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+
+        h1 {
+            margin: 30px auto 20px;
+            color: #222;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+
+    p {
+        padding: 0 20%;
+        font-size: 1.2em;
+        color: #333;
+        text-align: center;
+    }
+
+    h2.emphasis {
+        color: #28004e;
+        text-align: center;
+        margin: 30px auto;
+        font-size: 1.3em;
+    }
+
+    strong {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .video {
+
+        img#imageSolution {
+            display: block;
+            width: 600px;
+            margin-bottom: 60px;
+        }
+
+        video#vdPlayerSolution {
+            display: none;
+            width: 600px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 619px) {
+    .video {
+    
+        img#imageSolution {
+            display: block;
+            width: 400px;
+            margin-bottom: 60px;
+        }
+
+        video#vdPlayerSolution {
+            display: none;
+            width: 400px;
+            margin-bottom: 60px;
+        }
+    }    
+}

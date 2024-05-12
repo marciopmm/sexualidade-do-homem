@@ -1,0 +1,120 @@
+div#cta {
+    background-image: url('/assets/img/back06.jpg');
+
+    div.header {
+        background-color: rgb(255, 174, 0);
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+
+        h1 {
+            margin: 30px auto;
+            text-align: center;
+            text-transform: uppercase;
+            color: #1a1a1a;
+            font-size: 1.6em;            
+        }
+    }
+
+    p {
+        color: #444;
+        text-align: center;
+    }
+
+    .calm-down {
+        background-color: black;
+
+        p {
+            color: rgb(255, 174, 0);
+            font-size: 1.5em;
+            margin-bottom: 0;
+        }
+    }
+
+    .offer {
+        background-color: #fff;
+        padding-top: 10px;
+
+        .header-offer {
+            font-size:1.6em;
+        }
+
+        .text-offer {
+            margin: 20px 0 0;
+            font-size:1.4em;
+            color: #700;
+        }
+
+        .text-offer:nth-child(2) {
+            margin: 0;
+            font-size:1.4em;
+            color: #700;
+        }
+
+        .price-offer {
+            margin-top: 0;
+            font-size:5em;
+            color: rgb(0, 165, 14);
+        }
+
+        .countdown {
+            background-color: red;
+
+            .text {
+                padding: 15px 0 0;
+                color: white;
+                font-size: 1.2em;
+            }
+        }
+
+        .crossed {
+            text-decoration: line-through;
+        }
+    }
+
+    div.list {
+        margin: 0 auto;
+
+        ul {
+            li {
+                font-size: 1.2em;
+                font-weight: bold;
+                color: #444;
+            }
+        }        
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .video {
+
+        img#imageExplanation {
+            display: block;
+            width: 600px;
+            margin-bottom: 60px;
+        }
+
+        video#vdPlayerExplanation {
+            display: none;
+            width: 600px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 619px) {
+    .video {
+    
+        img#imageExplanation {
+            display: block;
+            width: 400px;
+            margin-bottom: 60px;
+        }
+
+        video#vdPlayerExplanation {
+            display: none;
+            width: 400px;
+            margin-bottom: 60px;
+        }
+    }    
+}

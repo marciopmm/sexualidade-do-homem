@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/sexualidade-do-homem/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,25 +1,68 @@
 div#introQuestion {
-    background-color: black;
+    background-image: url('/assets/img/back02.jpg');
 
-    h1 {
-        margin: 30px auto 20px;
-        color: #ddd;
-        font-size: 1.6em;
-        text-transform: uppercase;
-        text-align: center;
+    div.header {
+        background-color: black;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+
+        h1 {
+            margin: 30px auto 20px;
+            color: #ddd;
+            font-size: 2em;
+            text-transform: uppercase;
+            text-align: center;
+        }
     }
 
     p {
         padding: 0 20%;
-        font-size: 1.4em;
-        color: #aaa;
+        color: #ccc;
         text-align: center;
     }
 
-    p.emphasis {
-        padding: 0 20%;
-        font-size: 1.4em;
-        color: #d6b6ff;
+    h2.emphasis {
+        color: #aabeff;
+        width: 100%;
         text-align: center;
+        margin: 40px auto;
+        font-size: 1.3em;
+    }
+
+    strong {
+        text-decoration: underline;
+    }
+
+    .text-orange {
+        color: #ffae00;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    img#image {
+        display: block;
+        width: 600px;
+        margin-bottom: 60px;
+    }
+
+    video#vdPlayer {
+        display: none;
+        width: 600px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    img#image {
+        display: block;
+        width: 400px;
+        margin-bottom: 30px;
+    }
+
+    video#vdPlayer {
+        display: none;
+        width: 400px;
+        margin-bottom: 30px;
     }
 }

@@ -1,0 +1,72 @@
+div#explanation {
+    background-image: url('/assets/img/back05.jpg');
+
+    div.header {
+        background-color: rgb(0, 82, 0);
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+
+        h1 {
+            margin: 30px auto;
+            text-align: center;
+            text-transform: uppercase;
+            color: #eee;
+            font-size: 1.6em;            
+        }
+    }
+
+    p {
+        color: #444;
+        text-align: center;
+    }
+
+    div.list {
+        margin: 0 auto;
+
+        ul {
+            list-style: none;
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #635994;
+
+            li::before {
+                content: attr(data-icon);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .video {
+
+        img#imageExplanation {
+            display: block;
+            width: 600px;
+            margin-bottom: 60px;
+        }
+
+        video#vdPlayerExplanation {
+            display: none;
+            width: 600px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 619px) {
+    .video {
+    
+        img#imageExplanation {
+            display: block;
+            width: 400px;
+            margin-bottom: 60px;
+        }
+
+        video#vdPlayerExplanation {
+            display: none;
+            width: 400px;
+            margin-bottom: 60px;
+        }
+    }    
+}
