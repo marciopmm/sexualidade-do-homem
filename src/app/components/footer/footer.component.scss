@@ -1,0 +1,20 @@
+div#footer {
+    background-color: #414348;
+    padding: 30px;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+    a {
+        padding-bottom: 10px;
+        color: #eee;
+        text-decoration: none;
+        
+        &:hover {
+            border-bottom: solid #eee;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+div#author {
+    background-image: url('/assets/img/back06.jpg');
+
+    button {
+        margin: 30px;
+        padding: 30px 50px;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    div.header {
+        background-color: rgb(255, 174, 0);
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+
+        h1 {
+            margin: 30px auto;
+            text-align: center;
+            text-transform: uppercase;
+            color: #1a1a1a;
+            font-size: 1.6em;            
+        }
+    }
+
+    p {
+        color: black;
+        font-size: 1.7em;
+    }
+
+    ul {
+        color: black;
+        font-size: 1.3em;
+    }
+}

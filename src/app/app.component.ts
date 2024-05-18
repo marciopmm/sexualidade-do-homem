@@ -6,6 +6,9 @@ import { SolutionComponent } from './components/solution/solution.component';
 import { ProvaComponent } from './components/prova/prova.component';
 import { ExplanationComponent } from './components/explanation/explanation.component';
 import { CtaComponent } from './components/cta/cta.component';
+import { AuthorComponent } from './components/author/author.component';
+import { FinalComponent } from './components/final/final.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
     selector: 'app-root',
@@ -19,7 +22,10 @@ import { CtaComponent } from './components/cta/cta.component';
       SolutionComponent,
       ProvaComponent,
       ExplanationComponent,
-      CtaComponent
+      CtaComponent,
+      AuthorComponent,
+      FinalComponent,
+      FooterComponent
     ]
 })
 export class AppComponent {

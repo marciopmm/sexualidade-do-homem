@@ -31,15 +31,22 @@
     </div>
     <div class="row offer">
         <div class="offset-md-3 col-md-6">
-            <p class="nunito-sans-bold header-offer">O Dr. Marlon Mattedi abriu uma promoção com desconto para quem comprar nos próximos minutos.</p>
+            <p class="poppins-semibold header-offer">Queremos que você use e sinta os resultados do CONTROLE 2.0.<br/>Para isso, abrimos uma promoção com desconto para quem comprar <strong>agora.</strong></p>
         </div>
         <div class="countdown">
-            <p class="nunito-sans-bold text">A oferta expira às XX:XX:XX horas</p>
+            <p class="nunito-sans-bold text">A oferta expira em <span>{{ hours | number:'2.0' }}</span> horas, <span>{{ minutes | number:'2.0' }}</span> minutos e <span>{{ seconds  | number:'2.0' }}</span> segundos</p>
         </div>
-        <div class="offset-md-3 col-md-6">
+        <div class="offset-md-4 col-md-4 squared">
             <p class="poppins-semibold text-offer">O <strong>Treino CONTROLE 2.0</strong>, de <span class="crossed">R$ 1.099,90</span>,</p>
-            <p class="poppins-semibold text-offer">sai por <strong>APENAS 12x de</strong></p>
-            <p class="nunito-sans-bold price-offer">R$ 39,62</p>
+            <p class="poppins-semibold text-offer">sai por <strong>APENAS</strong>&nbsp;<span class="mod">12x</span> de</p>
+            <p class="nunito-sans-bold price-offer"><span class="mini">R$</span> 39,62</p>
+        </div>
+    </div>
+    <div class="row offer">
+        <div class="offset-md-4 col-md-4 squared">
+            <p><button type="button" class="btn btn-success btn-lg" (click)="clicked();">QUERO O CONTROLE</button></p>
+            <p>A solução definitiva para o seu problema!<br/>Livre-se da Ejaculação precoce <strong>PARA SEMPRE!</strong></p>
+            <p><img src="assets/img/controle-2.0-quadrado.png" alt="Controle 2.0"></p>
         </div>
     </div>
 </div>
